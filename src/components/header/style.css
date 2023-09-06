@@ -1,0 +1,58 @@
+
+header{
+    display: flex;
+    margin-top: 20px;
+    width: 160vh;
+    height: 60px;
+    border-radius: 5px;
+    
+}
+
+.header-items{
+    margin-left: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sign-up{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: green;
+    margin-left: 5px;
+}
+
+
+@media (max-width: 480px){
+    header{
+        visibility: hidden;
+        display: flex;
+        margin-top: 20px;
+        width: 160vh;
+        height: 60px;
+        border-radius: 5px;
+        background-color: darkgrey;
+    }
+    
+    .header-items{
+        margin-left: 25px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #sign-up{
+        width: 50px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: green;
+        margin-left: 5px;
+    }
+    #logout{
+        width: 50px;
+        height: 20px;
+        border-radius: 5px;
+        background-color: red;
+    }
+}
